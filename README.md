@@ -60,7 +60,7 @@ Most interrestingly, most of them are on a "fork", "pull request" community effo
 * [Survive the Deep End: PHP Security](http://phpsecurity.readthedocs.org/en/latest/index.html)
 * [Learn Python the Hard Way](http://learnpythonthehardway.org/)
 * [Javascript Patterns collection](http://shichuan.github.com/javascript-patterns/)
-
+* [Javascript the Right Way](http://www.jstherightway.com/)
 
 ## Who
 
