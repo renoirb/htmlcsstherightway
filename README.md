@@ -61,6 +61,7 @@ Most interrestingly, most of them are on a "fork", "pull request" community effo
 * [Learn Python the Hard Way](http://learnpythonthehardway.org/)
 * [Javascript Patterns collection](http://shichuan.github.com/javascript-patterns/)
 * [Javascript the Right Way](http://www.jstherightway.com/)
+* [Front End Engienner Manifesto](http://f2em.com/)
 
 ## Who
 
