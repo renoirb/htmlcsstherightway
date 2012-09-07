@@ -10,6 +10,7 @@ This is a collection of everything a frontend developer should know regarding be
 * [PHP: The RightWay](http://phptherightway.com)
 * [Survive the Deep End: PHP Security](http://phpsecurity.readthedocs.org/)
 * [JavaScript Patterns](http://shichuan.github.com/javascript-patterns/)
+* [Front End Engienner Manifesto](http://f2em.com/)
 
 ## Disclaimer
 
