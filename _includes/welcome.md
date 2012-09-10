@@ -11,6 +11,7 @@ This is a collection of everything a frontend developer should know regarding be
 * [Survive the Deep End: PHP Security](http://phpsecurity.readthedocs.org/)
 * [JavaScript Patterns](http://shichuan.github.com/javascript-patterns/)
 * [Front End Engienner Manifesto](http://f2em.com/)
+* [Toolbe.lt, listing web development tools in a collaborative fashion](http://toolbe.lt/)
 
 ## Disclaimer
 
