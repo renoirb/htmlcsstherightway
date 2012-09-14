@@ -13,6 +13,12 @@ This is a collection of everything a frontend developer should know regarding be
 * [Front End Engienner Manifesto](http://f2em.com/)
 * [Toolbe.lt, listing web development tools in a collaborative fashion](http://toolbe.lt/)
 
+## Inspiring resources
+
+* [Impressive Webs: CSS Basics](http://www.impressivewebs.com/css-basics/)
+* [HTML5 Can](http://www.htmlfivecan.com/) Slides of [this talk](https://developers.google.com/events/io/sessions/gooio2012/204/) showcasing HTML5 capabilities
+* [HTML5 Wow](http://www.htmlfivewow.com/) Slides showcasing other cool features
+
 ## Disclaimer
 
 The site barely started, it is a direct action triggered by [Move the web Forward](http://movethewebforward.org/), contribute section with proposed requests "[Lazyweb requests](https://github.com/h5bp/lazyweb-requests/issues?state=open)" asking for __tools and solutions that would be cool to have for web developers__ [issue #73](https://github.com/h5bp/lazyweb-requests/issues/73)
