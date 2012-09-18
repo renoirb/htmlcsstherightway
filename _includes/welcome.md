@@ -2,7 +2,9 @@
 
 There's a lot of obsolete and wrong information about HTML and CSS and how to do websites. 
 
-This is a collection of everything a frontend developer should know regarding best practices and guidelines. It is meant for complete newbie learn what is the result of other's experience and learn "the right way". Because the web changed so much, we should not do the same past mistakes again.
+This is a collection of everything a frontend developer should know regarding best practices and guidelines. It is meant for complete newbie learn what is the result of other's experience and learn "the right way". 
+
+Because the web changed so much, we should not do the same past mistakes again.
 
 ## Also on the same idea
 
@@ -33,5 +35,5 @@ Help make this website the best resource for new Frontend developers! [Contribut
 
 Send to your friends and put a link on your website. Help grow the best practices and good information about Web standards, Frontend development, HTML and CSS!
 
-[1]: https://github.com/renoirb/htmlcsstherighhtway/
+[1]: https://github.com/renoirb/htmlcsstherightway/
 [2]: https://github.com/renoirb/htmlcsstherightway/issues?milestone=1&state=open
