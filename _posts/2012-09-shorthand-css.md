@@ -118,6 +118,18 @@ border-color:#000;
 border:1px solid #000;
 ```
 
+`Case 3.2 - Border width for all four sides is specified.`
+```css
+/* longhand */
+border-top-width:1px;
+border-right-width:2px;
+border-bottom-width:3px;
+border-left-width:4px;
+
+/* shorthand */
+border-width:1px 2px 3px 4px;
+```
+
 4. Font
 -------
 
@@ -149,4 +161,48 @@ background-position:0 0;
 
 /* shorthand */
 background:#f00 url(background.gif) no-repeat fixed 0 0;
+```
+
+6. Colors
+---------
+
+`Case 6.1 - When a color consists of three pairs of hexadecimal digits, you can omit one digit from each pair.`
+```css
+/* longhand */
+color:#000000;
+color:#336699;
+color:#0099CC;
+
+/* shorthand */
+color:#000;
+color:#369;
+color:#09C;
+```
+
+7. List Style
+-------------
+
+`Case 7.1 - When list type, position and image is specified.`
+```css
+/* longhand */
+list-style-type:square;
+list-style-position:inside;
+list-style-image:url(image.gif);
+
+/* shorthand */
+list-style:square inside url(image.gif);
+```
+
+8. Outline
+----------
+
+`Case 8.1 - When outline color, style and width is specified.`
+```css
+/* longhand */
+outline-color:#f00;
+outline-style:solid;
+outline-width:2px;
+
+/* shorthand */
+outline:#f00 solid 2px;
 ```
