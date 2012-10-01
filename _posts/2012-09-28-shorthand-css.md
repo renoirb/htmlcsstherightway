@@ -1,12 +1,15 @@
 Efficient shorthand css techniques
 ----------------------------------
+by [pankajparashar](https://github.com/pankajparashar)
 
-Use shorthand css techniques, when saving those extra bytes is crucial for you!
+Use shorthand CSS techniques, when saving those extra bytes is crucial for you!
+
+But beware of the cascade. If you set a specific effect, make sure there is not 
+already defined. Being precise becomes more and more important as the code stacks up.
 
 ## 1. Padding
 
 ### Case 1.1 - Padding for all four sections is uniform
-
 
     /* longhand */
     padding-top:5px;
