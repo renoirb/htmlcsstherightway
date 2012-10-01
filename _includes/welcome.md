@@ -21,6 +21,7 @@ Because the web changed so much, we should not propagate mistakes from the past.
 
 ## Other inspiring resources
 
+* [CSS Maintenables (en français)](http://www.css-maintenables.fr/)
 * [Front End Engienner Manifesto](http://f2em.com/)
 * [Impressive Webs: CSS Basics](http://www.impressivewebs.com/css-basics/)
 * [HTML5 Can](http://www.htmlfivecan.com/) Slides of [this talk](https://developers.google.com/events/io/sessions/gooio2012/204/) showcasing HTML5 capabilities
