@@ -2,21 +2,26 @@
 
 There's a lot of obsolete and wrong information about HTML and CSS and how to do websites. 
 
-This is a collection of everything a frontend developer should know regarding best practices and guidelines. It is meant for complete newbie learn what is the result of other's experience and learn "the right way". 
+This is a collection of everything a frontend developer should know regarding best practices 
+and guidelines. 
 
-Because the web changed so much, we should not do the same past mistakes again.
+It is meant for complete newbie to learn what is the result of other's experience 
+"the right way", or should we say, the way we would had liked it to be at first.
+
+Because the web changed so much, we should not propagate mistakes from the past.
 
 ## Also on the same idea
 
-* [Javascript The RightWay](http://jstherightway.com)
+* [HTML5 - A technical specification for Web developers](http://developers.whatwg.org/)
 * [PHP: The RightWay](http://phptherightway.com)
+* [Javascript The RightWay](http://jstherightway.com)
 * [Survive the Deep End: PHP Security](http://phpsecurity.readthedocs.org/)
 * [JavaScript Patterns](http://shichuan.github.com/javascript-patterns/)
-* [Front End Engienner Manifesto](http://f2em.com/)
 * [Toolbe.lt, listing web development tools in a collaborative fashion](http://toolbe.lt/)
 
-## Inspiring resources
+## Other inspiring resources
 
+* [Front End Engienner Manifesto](http://f2em.com/)
 * [Impressive Webs: CSS Basics](http://www.impressivewebs.com/css-basics/)
 * [HTML5 Can](http://www.htmlfivecan.com/) Slides of [this talk](https://developers.google.com/events/io/sessions/gooio2012/204/) showcasing HTML5 capabilities
 * [HTML5 Wow](http://www.htmlfivewow.com/) Slides showcasing other cool features
