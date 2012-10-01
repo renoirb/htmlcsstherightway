@@ -30,10 +30,10 @@ This is a living document and will continue to be updated with more helpful info
 ## How to Contribute
 
 Help make this website the best resource for new Frontend developers! [Contribute on GitHub][1], [Ask how is the best way to (...)][2]
- 
-## Share!
-
-Send to your friends and put a link on your website. Help grow the best practices and good information about Web standards, Frontend development, HTML and CSS!
 
 [1]: https://github.com/renoirb/htmlcsstherightway/
 [2]: https://github.com/renoirb/htmlcsstherightway/issues?milestone=1&state=open
+
+----
+
+# Posts
