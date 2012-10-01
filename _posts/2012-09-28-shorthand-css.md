@@ -77,7 +77,6 @@ already defined. Being precise becomes more and more important as the code stack
 
 ### Case 2.2 - Margin for (top & bottom) and (right & left) is the same
 
-
     /* longhand */
     margin-top:1px;
     margin-right:2px;
@@ -90,7 +89,6 @@ already defined. Being precise becomes more and more important as the code stack
 
 ### Case 2.3 - Margin for right & left is the same
 
-
     /* longhand */
     margin-top:1px;
     margin-right:2px;
@@ -102,7 +100,6 @@ already defined. Being precise becomes more and more important as the code stack
 
 
 ### Case 2.4 - Margin for all four sections is different
-
 
     /* longhand */
     margin-top:1px;
@@ -118,7 +115,6 @@ already defined. Being precise becomes more and more important as the code stack
 
 ### Case 3.1 - Border width, style & color is specified
 
-
     /* longhand */
     border-width:1px;
     border-style:solid;
@@ -129,7 +125,6 @@ already defined. Being precise becomes more and more important as the code stack
 
 
 ### Case 3.2 - Border width for all four sides is specified
-
 
     /* longhand */
     border-top-width:1px;
@@ -143,8 +138,14 @@ already defined. Being precise becomes more and more important as the code stack
 
 ## 4. Font
 
-### Case 4.1 - Font style, variant, weight, size, height, family is specified
+A common caveat about fonts is that, like colors, their effect bubbles up until it is redefined in a stronger selector.
 
+Beware of the original definition then, when needed, use the most precise longhand to do your effect. 
+
+Sometimes it is even better to create a specific sub class (e.g. `bolded`) than being over 
+specific (e.g. `header > nav strong.title {}`, albeit specific, is considered as a VERY BAD practices)
+
+### Case 4.1 - Font style, variant, weight, size, height, family is specified
 
     /* longhand */
     font-style:italic;
