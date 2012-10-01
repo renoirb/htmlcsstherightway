@@ -56,12 +56,11 @@ This repository aims to solve this problem regarding Frontend, HTML and CSS deve
 
 Most interrestingly, most of them are on a "fork", "pull request" community effort and follows the line of other great initiatives: 
 
+* [HTML5 - A technical specification for Web developers](http://developers.whatwg.org/)
 * [PHP: The Right Way](http://www.phptherightway.com/)
 * [Survive the Deep End: PHP Security](http://phpsecurity.readthedocs.org/en/latest/index.html)
-* [Learn Python the Hard Way](http://learnpythonthehardway.org/)
 * [Javascript Patterns collection](http://shichuan.github.com/javascript-patterns/)
 * [Javascript the Right Way](http://www.jstherightway.com/)
-* [Front End Engienner Manifesto](http://f2em.com/)
 
 ## Who
 
