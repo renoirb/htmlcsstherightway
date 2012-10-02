@@ -26,10 +26,10 @@ This is a collection of everything a frontend developer should know regarding be
 
 ### Contributor Style Guide
 
-1. Use American English spelling (*primary English repo only*)
+1. Use English spelling (*primary English repo only*)
 2. Use four (4) spaces to indent text; do not use tabs.
-3. Wrap all text to 120 characters.
-4. Code samples should adhere to PSR-1 or higher.
+3. Wrap all text to 120 characters
+
 
 ## Where
 
@@ -61,6 +61,7 @@ Most interrestingly, most of them are on a "fork", "pull request" community effo
 * [Survive the Deep End: PHP Security](http://phpsecurity.readthedocs.org/en/latest/index.html)
 * [Javascript Patterns collection](http://shichuan.github.com/javascript-patterns/)
 * [Javascript the Right Way](http://www.jstherightway.com/)
+* [Principles of writing consistent (idiomatic) Javascript](https://github.com/rwldrn/idiomatic.js)
 
 ## Who
 
