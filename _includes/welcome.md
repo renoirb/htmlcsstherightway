@@ -17,6 +17,7 @@ Because the web changed so much, we should not propagate mistakes from the past.
 * [Javascript The RightWay](http://jstherightway.com)
 * [Survive the Deep End: PHP Security](http://phpsecurity.readthedocs.org/)
 * [JavaScript Patterns](http://shichuan.github.com/javascript-patterns/)
+* [Principles of writing consistent (idiomatic) Javascript](https://github.com/rwldrn/idiomatic.js)
 * [Toolbe.lt, listing web development tools in a collaborative fashion](http://toolbe.lt/)
 
 ## Other inspiring resources
