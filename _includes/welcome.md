@@ -12,6 +12,7 @@ Because the web changed so much, we should not propagate mistakes from the past.
 
 ## Also on the same idea
 
+* [CSS Style](https://github.com/byrichardpowell/CSS-Style)
 * [HTML5 - A technical specification for Web developers](http://developers.whatwg.org/)
 * [PHP: The RightWay](http://phptherightway.com)
 * [Javascript The RightWay](http://jstherightway.com)
