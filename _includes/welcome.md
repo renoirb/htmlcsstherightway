@@ -8,8 +8,9 @@ contribution model hosted on GitHub.
 
 This site is a user-contributed (and reviewed) documentation describing web development best 
 practices, based on two goals:
-# Vulgarize concepts to teach newcomers
-# Link to other resources to deepen the knowledge
+
+1. Vulgarize concepts to teach newcomers
+2. Link to other resources to deepen the knowledge
 
 The target audience is people who wants to learn (or re-learn) with today's 
 HTML+CSS+Javascript best practices to build a web that is future proof.
