@@ -50,19 +50,34 @@ When your translation is ready, open an issue on the Issue Tracker to let us kno
 
 ## Why
 
-There is a lot of community efforts regarding open-sourcing best practices and how to do "the right way".
+There's a lot of obsolete information about HTML and CSS and how to do websites, many are outdated, whereas 
+other more current are either too deep into technicalities or just in need to be found.
 
-This repository aims to solve this problem regarding Frontend, HTML and CSS development.
+Using the thme "the right way" this site is an open-source reference which follows the "fork", "pull request" 
+contribution model hosted on GitHub.
 
-Most interrestingly, most of them are on a "fork", "pull request" community effort and follows the line of other great initiatives: 
+This site is a user-contributed (and reviewed) documentation describing web development best 
+practices, based on two goals:
 
-* *[CSS Style](https://github.com/byrichardpowell/CSS-Style)*
+1. Vulgarize concepts to teach newcomers
+2. Link to other resources to deepen the knowledge
+
+The target audience is people who wants to learn (or re-learn) with today's 
+HTML+CSS+Javascript best practices to build a web that is future proof.
+
+## On the same idea
+Sites that follows the "fork me" on github concept documenting best practices for web development:
+
+* *[Web Platform](http://webplatform.org)*
+* [CSS Style](https://github.com/byrichardpowell/CSS-Style)
+* [Roundarch Isobar, Front-end code standards & best practices](http://isobar-idev.github.com/code-standards/)
 * [HTML5 - A technical specification for Web developers](http://developers.whatwg.org/)
-* [PHP: The Right Way](http://www.phptherightway.com/)
-* [Survive the Deep End: PHP Security](http://phpsecurity.readthedocs.org/en/latest/index.html)
-* [Javascript Patterns collection](http://shichuan.github.com/javascript-patterns/)
-* [Javascript the Right Way](http://www.jstherightway.com/)
+* [PHP: The RightWay](http://phptherightway.com)
+* [Javascript The RightWay](http://jstherightway.com)
+* [Survive the Deep End: PHP Security](http://phpsecurity.readthedocs.org/)
+* [JavaScript Patterns](http://shichuan.github.com/javascript-patterns/)
 * [Principles of writing consistent (idiomatic) Javascript](https://github.com/rwldrn/idiomatic.js)
+* [Toolbe.lt, listing web development tools in a collaborative fashion](http://toolbe.lt/)
 
 ## Who
 
