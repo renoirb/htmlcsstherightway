@@ -53,11 +53,11 @@ already defined. Being precise becomes more and more important as the code stack
     /* longhand */
     padding-top:1px;
     padding-right:2px;
-    padding-bottom:1px;
-    padding-left:2px;
+    padding-bottom:3px;
+    padding-left:4px;
 
     /* shorthand */
-    padding:1px 2px;
+    padding:1px 2px 3px 4px;
 
 
 ## 2. Margin
