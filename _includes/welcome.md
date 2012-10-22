@@ -1,18 +1,25 @@
 # Welcome
 
-There's a lot of obsolete and wrong information about HTML and CSS and how to do websites. 
+There's a lot of obsolete information about HTML and CSS and how to do websites, many are outdated, whereas 
+other more current are either too deep into technicalities or just in need to be found.
 
-This is a collection of everything a frontend developer should know regarding best practices 
-and guidelines. 
+Using the thme "the right way" this site is an open-source reference which follows the "fork", "pull request" 
+contribution model hosted on GitHub.
 
-It is meant for complete newbie to learn what is the result of other's experience 
-"the right way", or should we say, the way we would had liked it to be at first.
+This site is a user-contributed (and reviewed) documentation describing web development best 
+practices, based on two goals:
+# Vulgarize concepts to teach newcomers
+# Link to other resources to deepen the knowledge
 
-Because the web changed so much, we should not propagate mistakes from the past.
+The target audience is people who wants to learn (or re-learn) with today's 
+HTML+CSS+Javascript best practices to build a web that is future proof.
 
-## Also on the same idea
+## On the same idea
+Sites that follows the "fork me" on github concept documenting best practices for web development:
 
+* *[Web Platform](http://webplatform.org)*
 * [CSS Style](https://github.com/byrichardpowell/CSS-Style)
+* [Roundarch Isobar, Front-end code standards & best practices](http://isobar-idev.github.com/code-standards/)
 * [HTML5 - A technical specification for Web developers](http://developers.whatwg.org/)
 * [PHP: The RightWay](http://phptherightway.com)
 * [Javascript The RightWay](http://jstherightway.com)
