@@ -1,11 +1,52 @@
 Efficient shorthand css techniques
 ----------------------------------
-by [pankajparashar](https://github.com/pankajparashar)
+by [pankajparashar](https://github.com/pankajparashar), [renoirb](https://github.com/renoirb)
 
 Use shorthand CSS techniques, when saving those extra bytes is crucial for you!
 
-But beware of the cascade. If you set a specific effect, make sure there is not 
+Usage of shorthand or longhand are not only for brievety purposes. One common use case is to define in full the 
+desired style using short hand, then, override specific style using longhand.
+
+## Extending a theme using shorthand and longhand
+
+In most condition, the ideal premise is to see all element as a module and extend variants.
+
+To illustrate this, imagine you want a type of block to set text content in. Content can be (only) a blog post
+introduction text, a code-snippet, a picture. 
+
+Let's nicknamme it "`marble`" (as for the example), each of them needs different styling but some of it has common
+styling effects. 
+
+    /* a contrasting color to the background slate */
+    .marble {
+      border:1px solid white;
+      padding:25px;
+      background:url(marble.png) #FFF repeat;
+    }
+
+The previous could be a base module to use. Further down the project you could have "theme" section that takes care
+of the project specific theme.
+
+    /* in the project theme, override only what is specific to the project's theme */
+    .marble {
+      background-color: #FCFCFC;
+      border-color: #FCFCFC;
+      border-radius: 5px; /* And add this border radius too, please! */
+    }
+
+Imagine all content area are `marble` and some other will have a clear different 
+style, imagine now we need to style a source-code block, just fork a different behavior to it.
+
+    /* use: <div class="marble marble-code">Hello world</div> */
+    .marble-code {
+      font-family: sans-serif;
+    }
+
+Beware of the cascading effect. If you set a specific effect, make sure there is not 
 already defined. Being precise becomes more and more important as the code stacks up.
+
+
+
 
 ## 1. Padding
 
