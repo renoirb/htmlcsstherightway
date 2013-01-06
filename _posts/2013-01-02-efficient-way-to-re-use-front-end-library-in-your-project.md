@@ -1,6 +1,6 @@
 # Efficient way to re-use a front-end library in your project #
 
-by [Renoir Boulanger][http://renoirboulanger.com] ([@renoirb][http://twitter.com/renoirb])
+by [Renoir Boulanger](http://renoirboulanger.com) ([@renoirb](http://twitter.com/renoirb))
 
 Extending or re-using one (or many) front-end libraries is a very common practice. The holy-grail of efficiendy
 in front-end development practices is to be able to import re-usable libraries and adapt to the project's requirements.
