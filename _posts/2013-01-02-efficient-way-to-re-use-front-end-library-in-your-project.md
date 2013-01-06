@@ -30,7 +30,7 @@ A better would be to use the same concepts that programmers uses in the Object O
 
     Import, extend your specialized version, separate concerns, re-use. proffit.
 
-This is roughly what [OOCSS][http://oocss.org/] (Object Oriented CSS) stands for.
+This is roughly what [OOCSS](http://oocss.org/) (Object Oriented CSS) stands for.
 
 But why re-inventing when you can just use and reuse existing in an efficient way? 
 
@@ -91,7 +91,7 @@ In the `web/assets/lib/bootstrap/` either download, svn external or submodule fr
 it is. untouched.
 
 While in this example I use Twitter Bootstrap, I often use some specific sup-parts from the also Excellent 
-[Zurb Foundation][http://foundation.zurb.com/], [their font-icons, for example][http://www.zurb.com/playground/foundation-icons] library.
+[Zurb Foundation](http://foundation.zurb.com/), [their font-icons, library](http://www.zurb.com/playground/foundation-icons) for example.
 
 Then. In `main.less` (or any name you choose as your "main"); copy-paste the conteent from the original
 `web/assets/lib/bootstrap/less/bootstrap.less` into `web/assets/main.less`, and adjust paths accordingly.
