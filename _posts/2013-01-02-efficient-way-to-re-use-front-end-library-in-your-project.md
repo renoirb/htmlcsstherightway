@@ -1,12 +1,12 @@
 # Efficient way to re-use a front-end library in your project #
 
-by [Renoir Boulanger](http://renoirboulanger.com) ([@renoirb](http://twitter.com/renoirb))
+by [Renoir Boulanger](http://renoirboulanger.com)
 
 Extending or re-using one (or many) front-end libraries is a very common practice. The holy-grail of efficiendy
 in front-end development practices is to be able to import re-usable libraries and adapt to the project's requirements.
 
-For example. Imagine you want to create a new project, and you already have a few modules available (e.g. 
-[alert or notification message][http://patternry.com/p=feedback-messages/]) that could be used in any other projects.
+For example. Imagine you want to create a new project, and you already have a few modules available e.g. 
+[alert or notification message](http://patternry.com/p=feedback-messages) that could be used in any other projects.
 
 This tutorial is about isolating your own project-specific code, get the benefit of already made patterns that can then 
 mixed-matched for every specific views you may need.
@@ -51,17 +51,15 @@ This is some of my own personnal reasons I prefer using compiled CSS.
 
 After that, there is a lot of CSS parsers.
 
-Personally, I like [LESS][http://lesscss.org/]. Because: it can run in the browser, on the server side (within NodeJS),
+Personally, I like [LESS](http://lesscss.org/). Because: it can run in the browser, on the server side (within NodeJS),
 compile from the command line, and be used in automated deployment tools. 
 
 A killer argument is that it can only as simple as.
 
-    ```
     <link rel="stylesheet/less" type="text/css" href="styles.less" />
     <script src="less.js" type="text/javascript"></script>
-    ```
 
-(See usage for more details)[http://lesscss.org/#usage]
+[See usage for more details](http://lesscss.org/#usage)
 
 To use in production, get the compiled CSS in the `localStorage` from Firefox/Chrome (in the developer tools 
 such as Firebug) the compiled css and commit the css to the project's as minified CSS.
@@ -74,8 +72,7 @@ with ONE css file.
 
 Create a folder within your project that will handle external libraries.
 
-    ```
-    (rest of your project)
+    (rest of your project tree)
     web/
       assets/
         lib/
@@ -89,7 +86,6 @@ Create a folder within your project that will handle external libraries.
           _states.less
           _fonts.less
         main.less
-    ```      
 
 In the `web/assets/lib/bootstrap/` either download, svn external or submodule from a specific version and keep it as 
 it is. untouched.
