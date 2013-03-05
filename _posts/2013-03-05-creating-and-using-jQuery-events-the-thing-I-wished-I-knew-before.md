@@ -24,14 +24,14 @@ Later in a script you may be compelled to do something similar to the following 
         });
     });
     
-But what happens if you want to add other events such as, for example, activating an accordion. You may end up with 
+But what happens if you want to add other events such as, for example, *activating an accordion*. You may end up with 
 duplicating events and get some collisions.
 
-> Did you know that the 'click' event is only a string and you can create any event name you may want?
+*Did you know that the 'click' event is only a string and you can create any event name you may want?*
 
 Instead, you may want to use a better way to define event and take advantage of the the concept I just mentionned.
 
-Imagine we have an accordion managed already grabbing the ``data-target`` click event.
+Imagine we have an accordion managed already grabbing the element's `a[data-target]` click event handler.
 
     $(document).ready(function(){
     // Rest of the document in document.ready
@@ -54,6 +54,7 @@ act on them.
 
         // Look at the 'flip-my-icon-event', we just made-up that one. See below.
         $('body').on('click flip-my-icon-event', '.flip-icon', function(){
+    /* Look here     *************************                                       */
             // Let's put it also in a self-executing anonymous, to isolate scope
             (function(triggered){
 
@@ -65,6 +66,7 @@ act on them.
                 } else {
                     flipElement.removeClass('icon-minus').addClass('icon-plus');
                 }
+                // End same as earlier
 
             })($(this)); // this fires the self-executing.
         });
@@ -87,7 +89,7 @@ act on them.
             // End do the accordion stuff
 
             jQuery(this).trigger('click').trigger('flip-my-icon-event');
-// Look here >                                *****************************
+    /* Look here                         *******************************        */
             }
         });
     });
@@ -97,5 +99,10 @@ The following works, because of the following trigger html pattern, as from the 
     <a href="/some/url/324" class="flip-icon" data-target="#generated-324"><i class="icon-plus"></i></a>
 
 And of the following:
-# We have an icon for `.icon-plus` and `.icon-minus` class names, of course
-# The `a[data-target]` attribute has ALSO a `.flip-icon` class name ALONG with it's event handler listening to our made-up `flip-my-icon-event` event
+# We have an icon for `.icon-plus` and `.icon-minus` class names
+# The `a[data-target]` attribute has ALSO a `.flip-icon` class name
+# The `a[data-target]` triggers our made-up `flip-my-icon-event` event to an element that also matches (see the two 'look here' comments)
+
+## References
+
+# (Events in Javascript)[http://docs.webplatform.org/wiki/tutorials/events_in_javascript]
