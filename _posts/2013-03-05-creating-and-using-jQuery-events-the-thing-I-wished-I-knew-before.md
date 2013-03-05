@@ -106,7 +106,7 @@ And of the following:
 
 *References*
 
-* [Events in Javascript](http://docs.webplatform.org/wiki/tutorials/events_in_javascript) 
+* [**WPD** Events in Javascript (WebPlatform.org)](http://docs.webplatform.org/wiki/tutorials/events_in_javascript) 
 * [jQuery `trigger` method](https://github.com/jquery/jquery/blob/master/src/event.js#L206) from the jQuery source
 * [jQuery `on` method](https://github.com/jquery/jquery/blob/master/src/event.js#L715) from the jQuery source
 
