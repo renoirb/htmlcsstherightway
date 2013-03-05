@@ -99,12 +99,13 @@ The following works, because of the following trigger html pattern, as from the 
     <a href="/some/url/324" class="flip-icon" data-target="#generated-324"><i class="icon-plus"></i></a>
 
 And of the following:
-# We have an icon for `.icon-plus` and `.icon-minus` class names
-# The `a[data-target]` attribute has ALSO a `.flip-icon` class name
-# The `a[data-target]` triggers our made-up `flip-my-icon-event` event to an element that also matches (see the two 'look here' comments)
+
+* We have an icon for `.icon-plus` and `.icon-minus` class names
+* The `a[data-target]` attribute has ALSO a `.flip-icon` class name
+* The `a[data-target]` triggers our made-up `flip-my-icon-event` event to an element that also matches (see the two 'look here' comments)
 
 *References*
 
-# [Events in Javascript](http://docs.webplatform.org/wiki/tutorials/events_in_javascript)
-# [jQuery `trigger` method](https://github.com/jquery/jquery/blob/master/src/event.js#L206)
-# [jQuery `on` method](https://github.com/jquery/jquery/blob/master/src/event.js#L715) *note* it should superseed `live`, or `delegate`
+* [Events in Javascript](http://docs.webplatform.org/wiki/tutorials/events_in_javascript)
+* [jQuery `trigger` method](https://github.com/jquery/jquery/blob/master/src/event.js#L206)
+* [jQuery `on` method](https://github.com/jquery/jquery/blob/master/src/event.js#L715) *note* it should superseed `live`, or `delegate`
