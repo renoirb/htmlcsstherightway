@@ -103,6 +103,8 @@ And of the following:
 # The `a[data-target]` attribute has ALSO a `.flip-icon` class name
 # The `a[data-target]` triggers our made-up `flip-my-icon-event` event to an element that also matches (see the two 'look here' comments)
 
-## References
+*References*
 
-# (Events in Javascript)[http://docs.webplatform.org/wiki/tutorials/events_in_javascript]
+# [Events in Javascript](http://docs.webplatform.org/wiki/tutorials/events_in_javascript)
+# [jQuery `trigger` method](https://github.com/jquery/jquery/blob/master/src/event.js#L206)
+# [jQuery `on` method](https://github.com/jquery/jquery/blob/master/src/event.js#L715) *note* it should superseed `live`, or `delegate`
