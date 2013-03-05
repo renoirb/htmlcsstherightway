@@ -106,6 +106,9 @@ And of the following:
 
 *References*
 
-* [Events in Javascript](http://docs.webplatform.org/wiki/tutorials/events_in_javascript)
-* [jQuery `trigger` method](https://github.com/jquery/jquery/blob/master/src/event.js#L206)
-* [jQuery `on` method](https://github.com/jquery/jquery/blob/master/src/event.js#L715) *note* it should superseed `live`, or `delegate`
+* [Events in Javascript](http://docs.webplatform.org/wiki/tutorials/events_in_javascript) 
+* [jQuery `trigger` method](https://github.com/jquery/jquery/blob/master/src/event.js#L206) from the jQuery source
+* [jQuery `on` method](https://github.com/jquery/jquery/blob/master/src/event.js#L715) from the jQuery source
+
+**Note** direct events handlers such as `live`, or `delegate` are considered deprecated (as of jQuery 1.7) [see delegate API](http://api.jquery.com/delegate/) and [live API](http://api.jquery.com/live/) notes.
+
