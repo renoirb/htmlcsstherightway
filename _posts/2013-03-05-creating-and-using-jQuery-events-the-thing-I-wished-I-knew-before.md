@@ -29,7 +29,7 @@ duplicating events and get some collisions.
 
 *Did you know that the 'click' event is only a string and you can create any event name you may want?*
 
-Instead, you may want to use a better way (see [jQuery documentation `on` method](http://api.jquery.com/on/)) to define event and take advantage of the the concept I just mentionned.
+To describe what I am refering to, I have a add an other behavior that will also, in part, require the previous example.
 
 Imagine we have an accordion managed already grabbing the element's `a[data-target]` click event handler.
 
@@ -44,9 +44,24 @@ Imagine we have an accordion managed already grabbing the element's `a[data-targ
 
 But, what if for some reason, our page has to reload some sections and our event handler managing the `a[data-target]` click gets lost
 
-A better way would be to use the concept of Event bubbling, instead to attach the event to the direct node, you can 
-attach on the body node and specify what to listen, on what node. The bubbling will advise the event handlers and 
-act on them. 
+Instead, of creating a click specific event handler (what if we want to change) and be potentially lost with the element to attach event onto.
+
+You can use [jQuery's `on` method](http://api.jquery.com/on/) and attach an event to the `<body>`, a safe element that every document has.
+
+Things to note about the `on` method:
+
+* First parameter is an event name, can be ANYTHING (yes, you read it), space separated
+* Second element is on what to listen, can be null
+* a `Function` object to handle the event
+
+Also, there is nice thing about bubbling. 
+
+When an event happens, the event crawls the DOM up to the body (called 'catch')
+then gets back to the triggerer element (called 'bubbling') and firing in that order all event handlers.
+
+Knowing all of this now, instead of attaching a single event type handler to a specific element, let's take 
+advantage of our new knowledge.
+
 
     'use strict';
     $(document).ready(function(){
