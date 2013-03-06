@@ -29,7 +29,7 @@ duplicating events and get some collisions.
 
 *Did you know that the 'click' event is only a string and you can create any event name you may want?*
 
-Instead, you may want to use a better way to define event and take advantage of the the concept I just mentionned.
+Instead, you may want to use a better way (see [jQuery documentation `on` method](http://api.jquery.com/on/)) to define event and take advantage of the the concept I just mentionned.
 
 Imagine we have an accordion managed already grabbing the element's `a[data-target]` click event handler.
 
@@ -109,6 +109,7 @@ And of the following:
 * [**WPD** Events in Javascript (WebPlatform.org)](http://docs.webplatform.org/wiki/tutorials/events_in_javascript) 
 * [jQuery `trigger` method](https://github.com/jquery/jquery/blob/master/src/event.js#L206) from the jQuery source
 * [jQuery `on` method](https://github.com/jquery/jquery/blob/master/src/event.js#L715) from the jQuery source
-
+* [jQuery documentation `on` method](http://api.jquery.com/on/)
+* 
 **Note** direct events handlers such as `live`, or `delegate` are considered deprecated (as of jQuery 1.7) [see delegate API](http://api.jquery.com/delegate/) and [live API](http://api.jquery.com/live/) notes.
 
