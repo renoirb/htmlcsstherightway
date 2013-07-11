@@ -19,6 +19,7 @@ HTML+CSS+Javascript best practices to build a web that is future proof.
 Sites that follows the "fork me" on github concept documenting best practices for web development:
 
 * *[Web Platform](http://webplatform.org)*
+* [Frontend development bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks)
 * [CSS Style](https://github.com/byrichardpowell/CSS-Style)
 * [Roundarch Isobar, Front-end code standards & best practices](http://isobar-idev.github.com/code-standards/)
 * [HTML5 - A technical specification for Web developers](http://developers.whatwg.org/)
