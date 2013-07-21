@@ -1,8 +1,8 @@
 # Creating and using jQuery events, the thing I wished I knew before
 
 During web development, it often happens you want to attach events handler on 
-something in your page. A common usage could be you want to flip a plus sign to a minus 
-sign when you click on a button.
+something in your page. A common usage could be you want to flip a plus sign 
+to a minus sign when you click on a button.
 
     <a href="/some/url/324" class="flip-icon" data-target="#generated-324"><i class="icon-plus"></i></a>
 
