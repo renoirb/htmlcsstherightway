@@ -51,16 +51,23 @@ When your translation is ready, open an issue on the Issue Tracker to let us kno
 ## Why
 
 There's a lot of obsolete information about HTML and CSS and how to do websites, many are outdated, whereas 
-other more current are either too deep into technicalities or just in need to be found.
+other more current are either too deep into technicalities, only teaching specific details, or just in need to be found.
 
-Using the thme "the right way" this site is an open-source reference which follows the "fork", "pull request" 
+The idea is to teach how to do things, based on real world usage examples of how to do things in the current fashion.
+
+The site is based on the "the right way" theme as it is an open-source reference which follows the "fork", "pull request" 
 contribution model hosted on GitHub.
 
-This site is a user-contributed (and reviewed) documentation describing web development best 
-practices, based on two goals:
+### Goals
 
-1. Vulgarize concepts to teach newcomers
-2. Link to other resources to deepen the knowledge
+Provide a collection of hands-on set of examples to teach how to achieve goals and from time to time 
+augument the existing/upcoming documentation of the new *[Web Platform](http://webplatform.org) Docs project*.
+
+And also:
+
+1. Make an user-contributed, and reviewed, documentation site describing web development best-practices
+2. Vulgarize concepts to teach newcomers
+3. Link to other resources to deepen the knowledge
 
 The target audience is people who wants to learn (or re-learn) with today's 
 HTML+CSS+Javascript best practices to build a web that is future proof.
@@ -68,7 +75,6 @@ HTML+CSS+Javascript best practices to build a web that is future proof.
 ## On the same idea
 Sites that follows the "fork me" on github concept documenting best practices for web development:
 
-* *[Web Platform](http://webplatform.org)*
 * [CSS Style](https://github.com/byrichardpowell/CSS-Style)
 * [Roundarch Isobar, Front-end code standards & best practices](http://isobar-idev.github.com/code-standards/)
 * [HTML5 - A technical specification for Web developers](http://developers.whatwg.org/)
@@ -77,11 +83,15 @@ Sites that follows the "fork me" on github concept documenting best practices fo
 * [Survive the Deep End: PHP Security](http://phpsecurity.readthedocs.org/)
 * [JavaScript Patterns](http://shichuan.github.com/javascript-patterns/)
 * [Principles of writing consistent (idiomatic) Javascript](https://github.com/rwldrn/idiomatic.js)
-* [Toolbe.lt, listing web development tools in a collaborative fashion](http://toolbe.lt/)
 
 ## Who
 
-My name is [Renoir Boulanger](http://twitter.com/renoirb). I am member of French Canadian (Québec) Web Standards community non for profit organization called W3Québec. And I am maintaining the site. I build websites since Netscape Communicator.
+My name is [Renoir Boulanger](http://twitter.com/renoirb). I am member of French Canadian (Québec) Web Standards 
+geek. This project started prior my current position as an employee of the W3C in the developer relations and 
+system team working full time for the *[Web Platform](http://webplatform.org) Docs project*.
+
+Everybody is welcome to contribute. Just edit a file in `_posts/*.md` and issue a pull request.
+
 
 
 ### Collaborators
