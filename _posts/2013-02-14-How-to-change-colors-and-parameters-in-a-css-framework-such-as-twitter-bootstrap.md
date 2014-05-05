@@ -1,14 +1,14 @@
-How to change colors and parameters in a CSS framework such as Twitter Bootstrap
+How to change colors and parameters in a CSS framework such as Bootstrap
 --------------------------------------------------------------------------------
 
-I thought to re-visit the previous post because somebody asked on the 
-Twitter Bootstrap Mailing list if they can change some elements colors 
+I thought to re-visit the previous post because somebody asked on the
+Bootstrap Mailing list if they can change some elements colors
 using plain css.
 
 I was assuming that the person do not know the existence of css pre-processors
 so I shared the following blueprint on how to do.
 
-1. Download [bootstrap distribution](http://twitter.github.com/bootstrap/) and the less.js file.
+1. Download [bootstrap distribution](http://getbootstrap.com) and the less.js file.
 
 It is a bad practice to modify external library but better extending it. Here's how
 

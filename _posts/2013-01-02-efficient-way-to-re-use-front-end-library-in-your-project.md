@@ -2,7 +2,7 @@
 
 by [Renoir Boulanger](http://renoirboulanger.com)
 
-Extending or re-using one (or many) front-end libraries is a very common practice. The holy-grail of efficiendy
+Extending or re-using one (or many) front-end libraries is a very common practice. The holy-grail of efficiency
 in front-end development practices is to be able to import re-usable libraries and adapt to the project's requirements.
 
 For example. Imagine you want to create a new project, and you already have a few modules available e.g. 
@@ -26,9 +26,9 @@ But merely extend and adapt; this is where CSS parsers comes in handy (more on t
 
 ## A better way? ##
 
-A better would be to use the same concepts that programmers uses in the Object Oriented paradygm. In a few words:
+A better would be to use the same concepts that programmers uses in the Object Oriented paradigm. In a few words:
 
-    Import, extend your specialized version, separate concerns, re-use. proffit.
+    Import, extend your specialized version, separate concerns, re-use. profit.
 
 This is roughly what [OOCSS](http://oocss.org/) (Object Oriented CSS) stands for.
 
@@ -42,12 +42,12 @@ To be able to re-use, and separate concerns, we have no choice, we need somethin
 You may follow my drift if you ever had wishes similar to those:
 
 - Commented your CSS file with notes similar to `background-color:#000000 /* THEME: color #595958 plus 100% darker */`
-- Have sparated blocks and search replace all instances of a color to replace
+- Have separated blocks and search replace all instances of a color to replace
 - Wanted to separate alignment, font-size, and bordering without changing everywhere
 - Wished something like `color: darken($themeColor, 10%);` existed
 - Wanted to use CSS's native @import to separate, but without the need to explode http requests
 
-This is some of my own personnal reasons I prefer using compiled CSS.
+This is some of my own personal reasons I prefer using compiled CSS.
 
 After that, there is a lot of CSS parsers.
 
@@ -90,16 +90,16 @@ Create a folder within your project that will handle external libraries.
 In the `web/assets/lib/bootstrap/` either download, svn external or submodule from a specific version and keep it as 
 it is. untouched.
 
-While in this example I use Twitter Bootstrap, I often use some specific sup-parts from the also Excellent 
+While in this example I use Bootstrap, I often use some specific sup-parts from the also Excellent
 [Zurb Foundation](http://foundation.zurb.com/), [their font-icons, library](http://www.zurb.com/playground/foundation-icons) for example.
 
-Then. In `main.less` (or any name you choose as your "main"); copy-paste the conteent from the original
+Then. In `main.less` (or any name you choose as your "main"); copy-paste the content from the original
 `web/assets/lib/bootstrap/less/bootstrap.less` into `web/assets/main.less`, and adjust paths accordingly.
 
 
 ## Customization ##
 
-Now that you have this basic workspace, have a look at Twitter Bootstrap's `variables.less` file, 
+Now that you have this basic workspace, have a look at Bootstrap's `variables.less` file,
 see `myproject/_variables.less` has my own version of the original.
 
 Beware though. To avoid compilation errors; just make sure to include the original `variables.less` file, and only 
