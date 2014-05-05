@@ -90,7 +90,7 @@ Create a folder within your project that will handle external libraries.
 In the `web/assets/lib/bootstrap/` either download, svn external or submodule from a specific version and keep it as 
 it is. untouched.
 
-While in this example I use Twitter Bootstrap, I often use some specific sup-parts from the also Excellent 
+While in this example I use Bootstrap, I often use some specific sup-parts from the also Excellent
 [Zurb Foundation](http://foundation.zurb.com/), [their font-icons, library](http://www.zurb.com/playground/foundation-icons) for example.
 
 Then. In `main.less` (or any name you choose as your "main"); copy-paste the conteent from the original
@@ -99,7 +99,7 @@ Then. In `main.less` (or any name you choose as your "main"); copy-paste the con
 
 ## Customization ##
 
-Now that you have this basic workspace, have a look at Twitter Bootstrap's `variables.less` file, 
+Now that you have this basic workspace, have a look at Bootstrap's `variables.less` file,
 see `myproject/_variables.less` has my own version of the original.
 
 Beware though. To avoid compilation errors; just make sure to include the original `variables.less` file, and only 
