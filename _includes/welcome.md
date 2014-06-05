@@ -26,7 +26,7 @@ Sites that follows the "fork me" on github concept documenting best practices fo
 * [Roundarch Isobar, Front-end code standards & best practices](http://isobar-idev.github.com/code-standards/)
 * [HTML5 - A technical specification for Web developers](http://developers.whatwg.org/)
 * [PHP: The RightWay](http://phptherightway.com)
-* [Javascript The RightWay](http://jstherightway.com)
+* [Javascript The RightWay](http://jstherightway.org)
 * [Survive the Deep End: PHP Security](http://phpsecurity.readthedocs.org/)
 * [JavaScript Patterns](http://shichuan.github.com/javascript-patterns/)
 * [Principles of writing consistent (idiomatic) Javascript](https://github.com/rwldrn/idiomatic.js)
