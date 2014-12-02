@@ -9,12 +9,14 @@ This is the GitHub Pages repository for the _HTML CSS: The Right Way_ project.
 * Sub-sections have `isChild: true` in their front matter
 * The navigation and page structure are automatically generated
 
+
 ## Spread the Word!
 
 This is a collection of everything a frontend developer should know regarding best practices and guidelines.
 
 It is meant for complete newbie to learn what is the result of other's experience and learn "the right way". 
 Because the web changed so much, we should not do the same past mistakes again.
+
 
 ## How to Contribute
 
@@ -34,6 +36,7 @@ Because the web changed so much, we should not do the same past mistakes again.
 3. Wrap all text to 120 characters
 
 
+
 ## Where
 
 <http://htmlcsstherightway.org>
@@ -47,19 +50,21 @@ To avoid fragmentation and reader confusion, please choose one of these options:
 1. We link to your GitHub Pages fork with `[username].github.com/htmlcsstherightway`
 2. We link to your GitHub Pages fork with a subdomain (e.g. "fr.htmlcsstherightway.com")
 
-If you use a subdomain, enter the subdomain into the `CNAME` file, and ask us to setup DNS for you. If you do not use a subdomain, remove the `CNAME` file entirely else your fork will not build when pushed.
+If you use a subdomain, enter the subdomain into the `CNAME` file, and ask us to setup DNS for you. 
+If you do not use a subdomain, remove the `CNAME` file entirely else your fork will not build when pushed.
 
 When your translation is ready, open an issue on the Issue Tracker to let us know.
 
 ## Why
 
-There's a lot of obsolete information about HTML and CSS and how to do websites, many are outdated, whereas 
-other more current are either too deep into technicalities, only teaching specific details, or just in need to be found.
+There's a lot of obsolete information about HTML and CSS and how to do websites, many are outdated,
+whereas other more current are either too deep into technicalities, only teaching specific details,
+or just in need to be found.
 
 The idea is to teach how to do things, based on real world usage examples of how to do things in the current fashion.
 
-The site is based on the "the right way" theme as it is an open-source reference which follows the "fork", "pull request" 
-contribution model hosted on GitHub.
+The site is based on the "the right way" theme as it is an open-source reference which follows the "fork",
+"pull request"contribution model hosted on GitHub.
 
 ### Goals
 
