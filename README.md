@@ -4,14 +4,17 @@
 
 This is the GitHub Pages repository for the _HTML CSS: The Right Way_ project.
 
-* This website is a Jekyll project.
-* Each section and sub-section are a Markdown file in `_posts/`.
-* Sub-sections have `isChild: true` in their front matter.
-* The navigation and page structure are automatically generated.
+* This website is a Jekyll project
+* Each section and sub-section are a Markdown file in `_posts/`
+* Sub-sections have `isChild: true` in their front matter
+* The navigation and page structure are automatically generated
 
 ## Spread the Word!
 
-This is a collection of everything a frontend developer should know regarding best practices and guidelines. It is meant for complete newbie to learn what is the result of other's experience and learn "the right way". Because the web changed so much, we should not do the same past mistakes again.
+This is a collection of everything a frontend developer should know regarding best practices and guidelines.
+
+It is meant for complete newbie to learn what is the result of other's experience and learn "the right way". 
+Because the web changed so much, we should not do the same past mistakes again.
 
 ## How to Contribute
 
@@ -27,7 +30,7 @@ This is a collection of everything a frontend developer should know regarding be
 ### Contributor Style Guide
 
 1. Use English spelling (*primary English repo only*)
-2. Use four (4) spaces to indent text; do not use tabs.
+2. Use four (4) spaces to indent text; do not use tabs
 3. Wrap all text to 120 characters
 
 
@@ -60,8 +63,8 @@ contribution model hosted on GitHub.
 
 ### Goals
 
-Provide a collection of hands-on set of examples to teach how to achieve goals and from time to time 
-augument the existing/upcoming documentation of the new *[Web Platform](http://webplatform.org) Docs project*.
+Provide a collection of hands-on set of examples to teach how to achieve goals
+and from time to time augument the existing/upcoming documentation of the new *[Web Platform](http://webplatform.org) Docs project*.
 
 And also:
 
